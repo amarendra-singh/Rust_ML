@@ -1,0 +1,88 @@
+OPT_LEVEL = Some(0)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(C:\WorkStation\Projects\Rust\Rust_ML\HandwrittenClassifier\target\debug\deps;C:\WorkStation\Projects\Rust\Rust_ML\HandwrittenClassifier\target\debug;C:\Users\MSI-PC\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;c:\Users\MSI-PC\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files (x86)\Microsoft\Edge\Application;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Space Acres\bin\;C:\Program Files\dotnet\;C:\Users\MSI-PC\AppData\Local\Microsoft\WindowsApps;c:\Users\MSI-PC\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Stellar CLI;C:\Program Files\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build;C:\libtorch\lib;C:\Users\MSI-PC\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\MSI-PC\AppData\Local\Programs\Python\Python313\;C:\Users\MSI-PC\.cargo\bin;C:\Users\MSI-PC\AppData\Local\Microsoft\WindowsApps;C:\Users\MSI-PC\AppData\Local\Programs\cursor\resources\app\bin;;C:\Users\MSI-PC\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+blocksort.c
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+huffman.c
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+crctable.c
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+randtable.c
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+compress.c
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+decompress.c
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+bzlib.c
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): warning C4005: 'BZ_EXPORT': macro redefinition
+C:\Users\MSI-PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bzip2-sys-0.1.13+1.0.8\bzip2-1.0.8\bzlib.h(70): note: 'BZ_EXPORT' previously declared on the command line
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-lib=static=bz2
+cargo:rustc-link-search=native=C:\WorkStation\Projects\Rust\Rust_ML\HandwrittenClassifier\target\debug\build\bzip2-sys-76fc65cf6029cb7e\out\lib
+cargo:root=C:\WorkStation\Projects\Rust\Rust_ML\HandwrittenClassifier\target\debug\build\bzip2-sys-76fc65cf6029cb7e\out
+cargo:include=C:\WorkStation\Projects\Rust\Rust_ML\HandwrittenClassifier\target\debug\build\bzip2-sys-76fc65cf6029cb7e\out\include

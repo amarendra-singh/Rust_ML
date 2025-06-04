@@ -6,7 +6,6 @@ mod utils;
 use anyhow::Result;
 use clap::Parser;
 
-/// Command-line interface for the handwritten digit classifier.
 #[derive(Parser)]
 #[command(author, version, about)]
 struct Cli {
@@ -14,16 +13,11 @@ struct Cli {
     command: Commands,
 }
 
-/// Available subcommands for the CLI.
 #[derive(clap::Subcommand)]
 enum Commands {
-    /// Train the model on the MNIST dataset.
     Train,
-    /// Predict the digit in a given image using a trained model.
     Predict {
-        /// Path to the image file.
         image: String,
-        /// Path to the model file.
         model: String,
     },
 }

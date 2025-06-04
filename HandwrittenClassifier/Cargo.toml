@@ -1,10 +1,15 @@
 [package]
 name = "HandwrittenClassifier"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
-tch = "0.13"       # PyTorch bindings
-image = "0.24"     # Image processing
-clap = { version = "4.0", features = ["derive"] } # CLI parsing
-anyhow = "1.0"     # Error handling
+tch = { version = "0.20.0", features = ["download-libtorch"] }
+image = "0.24"
+clap = { version = "4.0", features = ["derive"] }
+anyhow = "1.0"
+thiserror = "1.0"
+
+[build-dependencies]
+cmake = "0.1"
+cc = { version = "1.0", features = ["parallel"] }
